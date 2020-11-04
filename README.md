@@ -5,7 +5,7 @@ Three scenarios are tested here
   2.Gene flow between non-sister species (b)
   3.Gene flow from an unsampled ghost lineage into an extant species (c)
   
-![Networks Used for Simulations](./images/Fig1.pdf)
+![Networks Used for Simulations](./images/Fig1.png)
 
 Scripts for simulation and estimation under the MSci model for the three trees are in the folders msci1, msci2, and msci3. There is also simulation under the IM model, but estimation with MSci in im1, im2, and im3.
 
