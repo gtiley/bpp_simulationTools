@@ -5,9 +5,7 @@ outfile = __OUTFILE__
 mcmcfile = __MCMCFILE__
 species&tree = 4   A  B  C  D
                    __NSEQS__ __NSEQS__ __NSEQS__ __NSEQS__
-* (((h[&tau-parent=yes], ((A) h [&phi=0.1,&tau-parent=no], B) g) t, C) s, D) r;
 *t1 (((A, B) t, h[&tau-parent=yes]) s, ((C) h [&phi=0.1,&tau-parent=no], D) g) r;
-* (((A) h [&phi=0.1,&tau-parent=no])g,(D, (C, (B, h[&tau-parent=yes]) t) s) r) q;
 *t2 (((A, B) t, C) s, D) r;
 usedata = 1
 nloci = 1000

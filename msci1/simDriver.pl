@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-$k = 1; 
+$k = 0; 
 @MIGRATE = ("0.05","0.2");
 @THETA = ("0.001","0.01");
 @NSITES = ("100","500");
@@ -21,7 +21,7 @@ for $i (0..1)
 		{
 		    system "mkdir $simcon";
 		    open OUT1,'>', "$simcon/$simcon.$n.ctl";
-		    open FH1,'<',"MCcoal.4s-MScitree2.ctl";
+		    open FH1,'<',"MCcoal.4s-MScitree1.ctl";
 		    
 		    $bl1 = 1 * $THETA[$j];
 		    $bl2 = 2 * $THETA[$j];
